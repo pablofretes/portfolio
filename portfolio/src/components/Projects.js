@@ -21,7 +21,7 @@ const Projects = () => {
         }
     ];
     return (
-        <section id='projects'>
+        <section id='projects' data-cy='projects-section'>
 			<div className='container'>
 				<h2 className='skills-h2'>Proyectos</h2>
 

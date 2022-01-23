@@ -20,7 +20,7 @@ const Skills = () => {
 	];
 
 	return (
-		<section id='skills'>
+		<section id='skills' data-cy='skills-section'>
 			<div className='container'>
 				<h2 className="skills-h2">Conocimientos</h2>
 				<div className='skills-grid'>

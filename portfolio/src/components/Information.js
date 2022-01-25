@@ -6,7 +6,15 @@ const Information = () => {
             <h2 className='text-titulo'>Mas cosas que saber sobre mi</h2>
             <ul>
                 <li className='listed-items'>
+                    <a
+                        href='https://www.efset.org/cert/wqpnK1'
+                        target='_blank'
+                        rel="noreferrer"
+                        style={{ textDecoration: 'none' } }
+                        data-cy='link-ingles'
+                    >
                     Ingles bilingüe.
+                    </a>
                 </li>
                 <li className='listed-items'>
                     <a

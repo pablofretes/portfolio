@@ -5,7 +5,6 @@ import Information from './Information';
 import Contact from './Contact';
 
 const Home = () => {
-    
     return (
         <div>
             <section id="home" data-cy="home-section">

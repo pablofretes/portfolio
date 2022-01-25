@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import pokeballImg from '../img/pokeball.png';
 import memotestImg from '../img/memotest.png';
+import sunsetImg from '../img/sunset.png';
 
 const Projects = () => {
     const projects = [
@@ -18,6 +18,20 @@ const Projects = () => {
             img: memotestImg,
             demo: '',
             github: 'https://github.com/pablofretes/memotest-react'
+        },
+		{
+            name: 'Atardecer',
+            description: 'Si el atardecer viene del oeste, ¿qué edificios pueden verlo?',
+            img: sunsetImg,
+            demo: '',
+            github: 'https://github.com/pablofretes/memotest-react'
+        },
+		{
+            name: 'Sudoku',
+            description: 'Un solucionador de sudokus',
+            img: '',
+            demo: '',
+            github: ''
         }
     ];
     return (
@@ -30,14 +44,14 @@ const Projects = () => {
 						<div className='project-container' key={index}>
 							<img src={project.img} alt='' className='project-image' />
 							<h3 className='project-title text-titulo'>{project.name}</h3>
-							<p className='project-tagline'>{project.tagline}</p>
+							<p className='project-tagline'>{project.description}</p>
 							<div className='project-links'>
-								<Link to={{ pathname: project.live }} target='_blank'>
+								<a href={project.live} target='_blank' rel='noreferrer'>
 									<button className='demo-button'>Demo</button>
-								</Link>
-								<Link to={{ pathname: project.github }} target='_blank'>
+								</a>
+								<a href={project.github} target='_blank' rel='noreferrer'>
 									<button className='code-button'>Código</button>
-								</Link>
+								</a>
 							</div>
 						</div>
 					))}

@@ -13,6 +13,10 @@ describe('App', () => {
         cy.contains('261-335-2786');
         cy.contains('E-mail');
         cy.contains('pablofretes.balzarelli@gmail.com');
+        cy.contains('Mas cosas que saber sobre mi');
+        cy.contains('Ingles bilingüe.');
+        cy.contains('Curso completo de FullStack Open 2021');
+        cy.contains('Perfil de Codewars');
     });
 
     it('Contains all sections and buttons', () => {

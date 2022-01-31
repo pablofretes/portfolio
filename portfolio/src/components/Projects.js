@@ -2,6 +2,7 @@ import React from 'react';
 import pokeballImg from '../img/pokeball.png';
 import memotestImg from '../img/memotest.png';
 import sunsetImg from '../img/sunset.png';
+import sudokuImg from '../img/sudoku.png';
 
 const Projects = () => {
     const projects = [
@@ -16,37 +17,36 @@ const Projects = () => {
             name: 'Memotest',
             description: 'Juego de Memotest',
             img: memotestImg,
-            demo: '',
+            demo: 'https://jovial-hermann-5ee9b5.netlify.app/',
             github: 'https://github.com/pablofretes/memotest-react'
         },
 		{
             name: 'Atardecer',
             description: 'Si el atardecer viene del oeste, ¿qué edificios pueden verlo?',
             img: sunsetImg,
-            demo: '',
-            github: 'https://github.com/pablofretes/memotest-react'
+            demo: 'https://stupefied-khorana-28e1f2.netlify.app/',
+            github: 'https://github.com/pablofretes/sunset-hills',
         },
 		{
-            name: 'Sudoku',
+            name: 'Sudoku Solver',
             description: 'Un solucionador de sudokus',
-            img: '',
-            demo: '',
-            github: ''
+            img: sudokuImg,
+            demo: 'https://heuristic-leakey-318be8.netlify.app/',
+            github: 'https://github.com/pablofretes/sudoku-solver-ts'
         }
     ];
     return (
         <section id='projects' data-cy='projects-section'>
 			<div className='container'>
 				<h2 className='skills-h2'>Proyectos</h2>
-
 				<div className='projects-grid'>
 					{projects.map((project, index) => (
 						<div className='project-container' key={index}>
 							<img src={project.img} alt='' className='project-image' />
 							<h3 className='project-title text-titulo'>{project.name}</h3>
-							<p className='project-tagline'>{project.description}</p>
+							<p className='project-description'>{project.description}</p>
 							<div className='project-links'>
-								<a href={project.live} target='_blank' rel='noreferrer'>
+								<a href={project.demo} target='_blank' rel='noreferrer'>
 									<button className='demo-button'>Demo</button>
 								</a>
 								<a href={project.github} target='_blank' rel='noreferrer'>

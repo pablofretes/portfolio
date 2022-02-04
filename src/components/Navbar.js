@@ -1,5 +1,5 @@
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import logo from '../img/logo.png';
 
 const Navbar = () => {
@@ -56,6 +56,16 @@ const Navbar = () => {
 							data-cy='link-github'
                         >
                             <FaGithub className='social-icon' data-cy='github-button'/>
+                        </a>
+                    </li>
+					<li className='nav-item'>
+                        <a
+                            href='https://www.linkedin.com/in/pablo-fretes-58331b218/'
+							rel="noreferrer"
+                            target='_blank'
+							data-cy='link-linkedin'
+                        >
+                            <FaLinkedin className='social-icon' data-cy='linkedin-button'/>
                         </a>
                     </li>
 				</ul>

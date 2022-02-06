@@ -25,7 +25,6 @@ const Home = () => {
                 <hr className='line'></hr>
             </section>
             <Skills />
-            <hr className='line'></hr>
             <Projects />
             <hr className='line'></hr>
             <Contact />

@@ -7,6 +7,17 @@ html, body {
   justify-content: center;
 }
 
+.about-me{
+  font-size: 1.2vw;
+  text-align: center;
+  font-family: Roboto, monospace;
+  letter-spacing: 3px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
 #home {
   margin-top: 15vh;
 }
@@ -152,7 +163,7 @@ html, body {
 }
 
 .nav-list {
-  width: 70%;
+  width: 90%;
   margin: 0;
   height: 0;
   padding: 0;
@@ -168,11 +179,6 @@ html, body {
   position: relative;
   display: list-item;
   padding: 2px 5px;
-}
-
-.open {
-  height: 145px;
-  margin: 1.2rem;
 }
 
 .nav-item {
@@ -208,6 +214,18 @@ html, body {
 
 .social-icon:hover {
   fill: #333;
+}
+
+.select-language {
+  border-radius: 6px;
+  font-family: Cairo, monospace;
+  font-size: 25px;
+  font-size: 1.7vw;
+  background-color:#574aaa;
+}
+
+.select-language:hover {
+  background-color: #007bff;
 }
 
 /*projects*/
@@ -296,12 +314,12 @@ html, body {
 
 
 #projects {
-	padding: 3rem 0;
+	padding: 4rem;
   margin-top: 5vh;
 }
 
 #projects h2 {
-  margin: 0;
+  margin-top: 2rem;
   text-align: center;
   font-size: 3rem;
   font-size: 3.0vw;
@@ -313,7 +331,7 @@ html, body {
   grid-template-columns: repeat(2, minmax(200px, 1fr));
   grid-template-rows: repeat(2, 1fr);
   row-gap: 40px;
-  margin-top: 6rem;
+  margin-top: 3rem;
 }
 
 .project-container {
@@ -347,7 +365,7 @@ html, body {
 }
 
 .project-description {
-  font-size: 1.2vw;
+  font-size: 1.6vw;
   font-family: Cairo;
   padding: 0 1rem;
   margin-top: 0;
@@ -358,11 +376,21 @@ html, body {
   gap: 25px;
 }
 
+.project-info{
+  font-size: 1.1vw;
+  font-family: Roboto, monospace;
+  letter-spacing: 2px;
+  font-weight: 480;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 /*contact*/
 
 
 #contact {
-	padding: 6rem 0;
+	padding: 3rem 0;
 	text-align: center;
   display: flex;
   width: 100%;
@@ -384,7 +412,7 @@ html, body {
   height: 100%;
   width: 100%;
   display: flex;
-  margin: 4rem 0;
+  margin: 2rem 0;
   flex-flow: row nowrap;
   justify-content: center;
 }

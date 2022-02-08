@@ -337,22 +337,29 @@ html, body {
 .project-container {
   border-radius: 6%;
   width: 90%;
-  height: 90%;
+  height: 100%;
   box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 4rem;
+  padding-bottom: 2.5rem;
   text-align: center;
   background: #fff;
   margin: auto;
   background-color: #D3D3D3;
 }
 
+.container {
+	width: 90%;
+	margin: 0 auto;
+	padding: 0 1.2rem;
+}
+
 .project-image {
-  width: 50%;
-  height: 65%;
+  margin: 0 auto;
+  width: 45%;
+  height: auto;
   border-radius: 10px 10px 0 0;
   border-bottom: 1px solid rgba(#777, 0.1);
   padding: 8px;

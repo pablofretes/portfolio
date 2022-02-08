@@ -2,7 +2,11 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import logo from '../img/logo.png';
 
-const Navbar = () => {
+const Navbar = ({ setLanguage }) => {
+	const handleSelect = (event) => {
+		const language = event.target.value;
+		setLanguage(language);
+	}
 	return (
 		<nav className='nav' data-cy='navbar'>
 			<div className='container-navbar'>
@@ -35,7 +39,7 @@ const Navbar = () => {
 							href='#projects'
 							data-cy='projects-button'
 						>
-							Projectos
+							Proyectos
 						</AnchorLink>
 					</li>
 					<li className='nav-item'>
@@ -68,6 +72,10 @@ const Navbar = () => {
                             <FaLinkedin className='social-icon' data-cy='linkedin-button'/>
                         </a>
                     </li>
+					<select onChange={handleSelect} className='select-language'>
+						<option value='Spanish'>Español</option>
+						<option value='English'>Ingles</option>
+					</select>
 				</ul>
 			</div>
 		</nav>

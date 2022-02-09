@@ -107,6 +107,7 @@ html, body {
   width: 10vw;
   background-color: #FAFAFA;
   font-family: Cairo, sans-serif;
+  transition: 0.8s ease-in-out;
 }
 
 @-webkit-keyframes fadeIn {
@@ -132,6 +133,12 @@ html, body {
   display: block;
   -webkit-animation: fadeIn 0.5s;
   animation: fadeIn 0.5s;
+}
+
+.skill-container:hover {
+  background-color: #574aaa;
+  transition: 0.8s ease-in-out;
+  color: white;
 }
 
 .skill-icon{
@@ -348,6 +355,7 @@ html, body {
   background: #fff;
   margin: auto;
   background-color: #D3D3D3;
+  transition: 0.8s ease-in;
 }
 
 .container {
@@ -393,8 +401,13 @@ html, body {
   margin-right: 10px;
 }
 
-/*contact*/
+.project-container:hover {
+  background-color: #574aaa;
+  color: white;
+  transition: 0.8s ease-in;
+}
 
+/*contact*/
 
 #contact {
 	padding: 3rem 0;

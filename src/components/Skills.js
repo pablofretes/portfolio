@@ -8,7 +8,7 @@ import graphqlIcon from '../img/graphql.svg';
 import reduxIcon from '../img/redux.svg';
 import nodeJSIcon from '../img/nodejs.svg';
 
-const Skills = () => {
+const Skills = ({ language }) => {
 	const skills = [
 		{ name: 'HTML', img: htmlIcon },
 		{ name: 'CSS', img: cssIcon },
@@ -24,7 +24,7 @@ const Skills = () => {
 	return (
 		<section id='skills' data-cy='skills-section'>
 			<div className='container'>
-				<h2 className="skills-h2">Conocimientos</h2>
+				{language === 'Spanish' ? <h2 className="skills-h2">Conocimientos</h2> : <h2 className="skills-h2">Skills</h2>}
 				<div className='skills-grid'>
 					{skills.map(skill => (
 						<div className='skill-container' key={skill.name}>

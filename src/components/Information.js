@@ -29,17 +29,6 @@ const Information = ({ language }) => {
                             Curso completo de FullStack Open 2021 
                             </a>
                         </li>
-                        <li className='listed-items'>
-                            <a
-                                href='https://www.codewars.com/users/pablofretes/completed_solutions'
-                                target='_blank'
-                                rel="noreferrer"
-                                style={{ textDecoration: 'none' } }
-                                data-cy='link-codewars'
-                            >
-                            Perfil de Codewars 
-                            </a>
-                        </li>
                     </ul>
                 </div>
             ) : (
@@ -66,17 +55,6 @@ const Information = ({ language }) => {
                                 data-cy='link-fullstackopen'
                             >
                             Completed FullStack 2021 Course
-                            </a>
-                        </li>
-                        <li className='listed-items'>
-                            <a
-                                href='https://www.codewars.com/users/pablofretes/completed_solutions'
-                                target='_blank'
-                                rel="noreferrer"
-                                style={{ textDecoration: 'none' } }
-                                data-cy='link-codewars'
-                            >
-                            CodeWars Profile
                             </a>
                         </li>
                     </ul>

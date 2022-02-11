@@ -79,7 +79,7 @@ const Projects = ({ language }) => {
         },
 		{
             info: `The biggest challenge on this project was CSS. It seems pretty simple, but I didn't understand how 
-            to use CSS Grid. My Google-Fu went all the way up to brown belt by the time I was done.`,
+            to make the bars fit correctly. My Google-Fu went to a whole new level by the time I was done.`,
             name: 'Sunset Hills',
             description: 'If the sunset comes from the west, which buildings can see it?',
             img: sunsetImg,
@@ -90,7 +90,7 @@ const Projects = ({ language }) => {
             info: `The idea for this project came about when I was doing an exercise on sudoku validation on CodeWars. 
             When I was about to finish it I thought "Hey, this is basically half a sudoku solver app", so I made it. Once again 
             the styling proved harder than i had previously thought. It looks simple but it took me days to understand how to 
-            make the sudoku board, and I still can't make it responsive.`,
+            make the sudoku board and make it responsive.`,
             name: 'Sudoku Solver',
             description: 'Just a sudoku solver that pulls unsolved sudokus from an API',
             img: sudokuImg,

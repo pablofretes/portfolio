@@ -27,7 +27,7 @@ const Slider = ({ data }) => {
 
     return (
         <div className='slider-container'>
-            <div key={data[slideIndex].id} className={slideIndex === data[slideIndex].id - 1 ? 'project-container active-slide' : 'project-container'}>
+            <div key={data[slideIndex].id} className={slideIndex === data[slideIndex].id - 1 ? 'project-container active-slide' : ''}>
                 <img src={data[slideIndex].img} alt='' className='project-image' />
                 <h3 className='project-title text-titulo'>{data[slideIndex].name}</h3>
                 <p className='project-info'>{data[slideIndex].info}</p>

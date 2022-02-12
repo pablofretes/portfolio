@@ -1,9 +1,9 @@
 import React from 'react';
 import Slider from './Slider';
-import pokeballImg from '../img/pokeball.png';
-import memotestImg from '../img/memotest.png';
-import sunsetImg from '../img/sunset.png';
-import sudokuImg from '../img/sudoku.png';
+import Screenshot_memotest from '../img/Screenshot_memotest.png';
+import Screenshot_pokedex from '../img/Screenshot_pokedex.png';
+import Screenshot_sudoku from '../img/Screenshot_sudoku.png';
+import Screenshot_sunset from '../img/Screenshot_sunset.png';
 
 const Projects = ({ language }) => {
     const projects = [
@@ -16,7 +16,7 @@ const Projects = ({ language }) => {
             Así que por desgracia eso tuve que hacerlo con un react useState.`,
             name: 'Pokedex',
             description: 'Aplicación de Pokedex. Podes hacer reseñas de los pokémons si te logeas.',
-            img: pokeballImg,
+            img: Screenshot_pokedex,
             demo: 'https://heroku-react-pokedex.herokuapp.com',
             github: 'https://github.com/pablofretes/pokedex-react/',
         },
@@ -30,7 +30,7 @@ const Projects = ({ language }) => {
             terminé subiendo el backend a heroku y el frontend a netlify.`,
             name: 'Memotest',
             description: 'Juego de Memotest. Guarda los mejores 10 Puntajes.',
-            img: memotestImg,
+            img: Screenshot_memotest,
             demo: 'https://jovial-hermann-5ee9b5.netlify.app/',
             github: 'https://github.com/pablofretes/memotest-react'
         },
@@ -40,7 +40,7 @@ const Projects = ({ language }) => {
             se alineen correctamente. Mi Google-Fu subió al siguiente nivel para cuando había terminado con esto.`,
             name: 'Atardecer',
             description: 'Si el atardecer viene del oeste, ¿qué edificios pueden verlo?',
-            img: sunsetImg,
+            img: Screenshot_sunset,
             demo: 'https://stupefied-khorana-28e1f2.netlify.app/',
             github: 'https://github.com/pablofretes/sunset-hills',
         },
@@ -52,7 +52,7 @@ const Projects = ({ language }) => {
             la mesa de sudoku en CSS, y todavía no me sale hacerlo responsivo.`,
             name: 'Sudoku Solver',
             description: 'Un solucionador de sudokus que llama a una API para cada nuevo sudoku',
-            img: sudokuImg,
+            img: Screenshot_sudoku,
             demo: 'https://heuristic-leakey-318be8.netlify.app/',
             github: 'https://github.com/pablofretes/sudoku-solver-ts'
         }
@@ -67,7 +67,7 @@ const Projects = ({ language }) => {
             store them immutably in redux store. So I disgracefully made a workaround with React useState.`,
             name: 'Pokedex',
             description: 'Pokedex App. You can review pokemons if you create an account.',
-            img: pokeballImg,
+            img: Screenshot_pokedex,
             demo: 'https://heroku-react-pokedex.herokuapp.com',
             github: 'https://github.com/pablofretes/pokedex-react/',
         },
@@ -80,7 +80,7 @@ const Projects = ({ language }) => {
             a build folder. I was finally able to do it when i uploaded the backend to heroku and the frontend to netlify.`,
             name: 'Memotest',
             description: 'Memotest Game. Stores the Top 10 HighScores',
-            img: memotestImg,
+            img: Screenshot_memotest,
             demo: 'https://jovial-hermann-5ee9b5.netlify.app/',
             github: 'https://github.com/pablofretes/memotest-react'
         },
@@ -90,7 +90,7 @@ const Projects = ({ language }) => {
             to make the bars fit correctly. My Google-Fu went to a whole new level by the time I was done.`,
             name: 'Sunset Hills',
             description: 'If the sunset comes from the west, which buildings can see it?',
-            img: sunsetImg,
+            img: Screenshot_sunset,
             demo: 'https://stupefied-khorana-28e1f2.netlify.app/',
             github: 'https://github.com/pablofretes/sunset-hills',
         },
@@ -102,7 +102,7 @@ const Projects = ({ language }) => {
             make the sudoku board and make it responsive.`,
             name: 'Sudoku Solver',
             description: 'Just a sudoku solver that pulls unsolved sudokus from an API',
-            img: sudokuImg,
+            img: Screenshot_sudoku,
             demo: 'https://heuristic-leakey-318be8.netlify.app/',
             github: 'https://github.com/pablofretes/sudoku-solver-ts'
         }

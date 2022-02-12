@@ -1,4 +1,5 @@
 import React from 'react';
+import Slider from './Slider';
 import pokeballImg from '../img/pokeball.png';
 import memotestImg from '../img/memotest.png';
 import sunsetImg from '../img/sunset.png';
@@ -7,6 +8,7 @@ import sudokuImg from '../img/sudoku.png';
 const Projects = ({ language }) => {
     const projects = [
         {
+            id: 1,
             info: `Este fue el primer proyecto que hice solo, sin seguir ninguna guía ni nada.
             Tarde un montón de tiempo, aproximadamente 6 semanas, en terminarlo. Lo que más me
             costó fue redux. Me averguenza un poco admitir que no pude averiguar como hacer
@@ -19,6 +21,7 @@ const Projects = ({ language }) => {
             github: 'https://github.com/pablofretes/pokedex-react/',
         },
         {
+            id: 2,
             info: `Al principio cuando me planteé este proyecto pensaba solo hacer un juego y listo. 
             Pero al final me prendí y me puse a practicar GraphQL. Tuve un montón de problemas, llamando
             incorrectamente las queries o no proveerle los paramentros correctamente, pero por suerte pude
@@ -32,8 +35,9 @@ const Projects = ({ language }) => {
             github: 'https://github.com/pablofretes/memotest-react'
         },
 		{
-            info: `El mayor desafío de este proyecto fue el CSS. Parece bastante simple, pero no entendía como usar CSS Grid. 
-            Mi Google-Do subió a cinturón marrón para cuando había terminado con esto.`,
+            id: 3,
+            info: `El mayor desafío de este proyecto fue el CSS. Parece bastante simple, pero no entendía hacer que los edificios 
+            se alineen correctamente. Mi Google-Fu subió al siguiente nivel para cuando había terminado con esto.`,
             name: 'Atardecer',
             description: 'Si el atardecer viene del oeste, ¿qué edificios pueden verlo?',
             img: sunsetImg,
@@ -41,6 +45,7 @@ const Projects = ({ language }) => {
             github: 'https://github.com/pablofretes/sunset-hills',
         },
 		{
+            id: 4,
             info: `Tuve la idea de hacer este proyecto cuando estaba haciendo un ejercicio de validación de sudoku 
             en CodeWars. Pensé "esto básicamente es media app de un solucionador de sudoku" mientras estaba por terminarlo, 
             entonces lo hice. Otra vez el estilizado fue complicado. Parece simple de nuevo pero tarde días en entender como hacer
@@ -55,6 +60,7 @@ const Projects = ({ language }) => {
 
     const projectsEnglish = [
         {
+            id: 1,
             info: `This was the first project I made completely by myself, without following any guides.
             It took me a long time, aproximately 6 weeks, to finish it. The hardest part was redux. I'm a
             bit ashamed to admit that I couldn't figure out how to make 20 API calls to pokeapi.co and 
@@ -66,6 +72,7 @@ const Projects = ({ language }) => {
             github: 'https://github.com/pablofretes/pokedex-react/',
         },
         {
+            id: 2,
             info: `When I first started thinking about this project I was just planning on a simple game. But 
             afterwards I suddenly thought it would be fun to practice GraphQL with it. I had a lot of problems,
             calling queries incorrectly or not providing correct parameters, luckily I fixed them all. Another 
@@ -78,6 +85,7 @@ const Projects = ({ language }) => {
             github: 'https://github.com/pablofretes/memotest-react'
         },
 		{
+            id: 3,
             info: `The biggest challenge on this project was CSS. It seems pretty simple, but I didn't understand how 
             to make the bars fit correctly. My Google-Fu went to a whole new level by the time I was done.`,
             name: 'Sunset Hills',
@@ -87,6 +95,7 @@ const Projects = ({ language }) => {
             github: 'https://github.com/pablofretes/sunset-hills',
         },
 		{
+            id: 4,
             info: `The idea for this project came about when I was doing an exercise on sudoku validation on CodeWars. 
             When I was about to finish it I thought "Hey, this is basically half a sudoku solver app", so I made it. Once again 
             the styling proved harder than i had previously thought. It looks simple but it took me days to understand how to 
@@ -100,48 +109,12 @@ const Projects = ({ language }) => {
     ];
     return (
         <section id='projects' data-cy='projects-section'>
-			<div className='container'>
 				{language === 'Spanish' ? <h2 className='skills-h2'>Proyectos</h2> : <h2 className='skills-h2'>Projects</h2>}
                 {language === 'Spanish' ? (
-                    <div className='projects-grid'>
-                        {projects.map((project, index) => (
-                            <div className='project-container' key={index}>
-                                <img src={project.img} alt='' className='project-image' />
-                                <h3 className='project-title text-titulo'>{project.name}</h3>
-                                <p className='project-info'>{project.info}</p>
-                                <p className='project-description'>{project.description}</p>
-                                <div className='project-links'>
-                                    <a href={project.demo} target='_blank' rel='noreferrer'>
-                                        <button className='demo-button'>Demo</button>
-                                    </a>
-                                    <a href={project.github} target='_blank' rel='noreferrer'>
-                                        <button className='code-button'>Código</button>
-                                    </a>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
+                    <Slider data={projects} />
                 ) : (
-                    <div className='projects-grid'>
-                        {projectsEnglish.map((project, index) => (
-                            <div className='project-container' key={index}>
-                                <img src={project.img} alt='' className='project-image' />
-                                <h3 className='project-title text-titulo'>{project.name}</h3>
-                                <p className='project-info'>{project.info}</p>
-                                <p className='project-description'>{project.description}</p>
-                                <div className='project-links'>
-                                    <a href={project.demo} target='_blank' rel='noreferrer'>
-                                        <button className='demo-button'>Demo</button>
-                                    </a>
-                                    <a href={project.github} target='_blank' rel='noreferrer'>
-                                        <button className='code-button'>Code</button>
-                                    </a>
-                                </div>
-                            </div>
-                        ))}
-				    </div>
+                    <Slider data={projectsEnglish} />
                 )}
-			</div>
 		</section>
     );
 };

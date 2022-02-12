@@ -28,10 +28,14 @@ const Slider = ({ data }) => {
     return (
         <div className='slider-container'>
             <div key={data[slideIndex].id} className={slideIndex === data[slideIndex].id - 1 ? 'project-container active-slide' : ''}>
-                <img src={data[slideIndex].img} alt='' className='project-image' />
-                <h3 className='project-title text-titulo'>{data[slideIndex].name}</h3>
-                <p className='project-info'>{data[slideIndex].info}</p>
-                <p className='project-description'>{data[slideIndex].description}</p>
+                <div className='img-container'>
+                    <img src={data[slideIndex].img} alt='' className='project-image' />
+                </div>
+                <div className='text-container'>
+                    <h3 className='project-title text-titulo'>{data[slideIndex].name}</h3>
+                    <p className='project-info'>{data[slideIndex].info}</p>
+                    <p className='project-description'>{data[slideIndex].description}</p>
+                </div>
                 <div className='project-links'>
                     <a href={data[slideIndex].demo} target='_blank' rel='noreferrer'>
                         <button className='demo-button'>Demo</button>

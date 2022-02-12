@@ -253,7 +253,7 @@ html, body {
   cursor: pointer;
   display: inline-flex;
   font-family: Cairo, monospace;
-  height: 100%;
+  height: 50%;
   width: 100%;
   justify-content: center;
   list-style: none;
@@ -294,7 +294,7 @@ html, body {
   cursor: pointer;
   display: inline-flex;
   font-family: Cairo, monospace;
-  height: 100%;
+  height: 50%;
   width: 100%;
   justify-content: center;
   list-style: none;
@@ -396,7 +396,6 @@ html, body {
 }
 
 .project-container {
-  margin-top: -50px;
   border-radius: 10px;
   width: 100%;
   height: 100%;
@@ -502,6 +501,11 @@ html, body {
   margin-top: 3rem;
 }
 
+.img-container {
+  width: 100%;
+  height: 30%;
+}
+
 .project-image {
   margin: 0 auto;
   width: 295px;
@@ -509,6 +513,11 @@ html, body {
   border-radius: 10px 10px 0 0;
   border-bottom: 1px solid rgba(#777, 0.1);
   padding: 8px;
+}
+
+.text-container {
+  width: 100%;
+  height: 50%;
 }
 
 .project-title {
@@ -525,13 +534,19 @@ html, body {
 }
 
 .project-links {
+  margin: auto;
+  width: 100%;
+  height: 20%;
   display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
   gap: 25px;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .project-info{
-  font-size: 1.1vw;
+  font-size: 1.25vw;
   font-family: Roboto, monospace;
   letter-spacing: 2px;
   font-weight: 480;
@@ -539,7 +554,6 @@ html, body {
   margin-left: 15px;
   margin-right: 15px;
 }
-
 
 @media screen and (max-width: 800px){
   .slider-container {
@@ -553,10 +567,83 @@ html, body {
 
   .project-image {
     margin: 0 auto;
-    width: 50%;
+    width: 165px;
     height: auto;
-    border-radius: 10px 10px 0 0;
-    border-bottom: 1px solid rgba(#777, 0.1);
     padding: 8px;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .slider-container{
+    width: 75%;
+  }
+
+  .project-info{
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .slider-container {
+    margin: auto;
+    height: 375px;
+  }
+  .button-slide {
+    width: 20px;
+    height: 20px;
+  }
+
+  .project-image {
+    margin: 0 auto;
+    width: 125px;
+    height: auto;
+    padding: 8px;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .slider-container{
+    width: 90%;
+  }
+
+  .text-container{
+    margin-bottom: 0.3rem;
+  }
+
+  .project-info{
+    font-size: 1.6vw;
+  }
+}
+
+
+@media screen and (max-width: 400px){
+  .slider-container {
+    margin: auto;
+    height: 325px;
+  }
+  .button-slide {
+    width: 20px;
+    height: 20px;
+  }
+
+  .project-image {
+    margin: 0 auto;
+    width: 80px;
+    height: auto;
+    padding: 8px;
+    margin-top: 0.1rem;
+    margin-top: 0.1rem;
+  }
+
+  .text-container{
+    margin-bottom: 0.2rem;
+  }
+
+  .slider-container{
+    width: 90%;
+  }
+
+  .project-info{
+    font-size: 1.3vw;
   }
 }

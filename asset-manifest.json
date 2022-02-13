@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c58f6fa3.chunk.css",
-    "main.js": "/portfolio/static/js/main.216ce5f6.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.216ce5f6.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.2e5adc8e.chunk.css",
+    "main.js": "/portfolio/static/js/main.f5e49992.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f5e49992.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.37da8305.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.37da8305.js.map",
     "static/js/2.43bd1988.chunk.js": "/portfolio/static/js/2.43bd1988.chunk.js",
     "static/js/2.43bd1988.chunk.js.map": "/portfolio/static/js/2.43bd1988.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.c58f6fa3.chunk.css.map": "/portfolio/static/css/main.c58f6fa3.chunk.css.map",
+    "static/css/main.2e5adc8e.chunk.css.map": "/portfolio/static/css/main.2e5adc8e.chunk.css.map",
     "static/js/2.43bd1988.chunk.js.LICENSE.txt": "/portfolio/static/js/2.43bd1988.chunk.js.LICENSE.txt",
     "static/media/PabloFretes-CV-English.85ce8d27.pdf": "/portfolio/static/media/PabloFretes-CV-English.85ce8d27.pdf",
     "static/media/PabloFretes-CV.8761b88d.pdf": "/portfolio/static/media/PabloFretes-CV.8761b88d.pdf",
@@ -21,17 +21,17 @@
     "static/media/graphql.8171c4e3.svg": "/portfolio/static/media/graphql.8171c4e3.svg",
     "static/media/html5.c28bc668.svg": "/portfolio/static/media/html5.c28bc668.svg",
     "static/media/javascript.de4c2594.svg": "/portfolio/static/media/javascript.de4c2594.svg",
-    "static/media/left-arrow.53878c51.svg": "/portfolio/static/media/left-arrow.53878c51.svg",
+    "static/media/left-arrow.da21225b.svg": "/portfolio/static/media/left-arrow.da21225b.svg",
     "static/media/nodejs.615ffbea.svg": "/portfolio/static/media/nodejs.615ffbea.svg",
     "static/media/react.1520bd67.svg": "/portfolio/static/media/react.1520bd67.svg",
     "static/media/redux.a9567540.svg": "/portfolio/static/media/redux.a9567540.svg",
-    "static/media/right-arrow.8b8fb639.svg": "/portfolio/static/media/right-arrow.8b8fb639.svg",
+    "static/media/right-arrow.d19ce8f8.svg": "/portfolio/static/media/right-arrow.d19ce8f8.svg",
     "static/media/typescript.e0cf5672.svg": "/portfolio/static/media/typescript.e0cf5672.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.37da8305.js",
     "static/js/2.43bd1988.chunk.js",
-    "static/css/main.c58f6fa3.chunk.css",
-    "static/js/main.216ce5f6.chunk.js"
+    "static/css/main.2e5adc8e.chunk.css",
+    "static/js/main.f5e49992.chunk.js"
   ]
 }

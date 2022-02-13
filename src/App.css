@@ -328,11 +328,11 @@ html, body {
 
 #contact {
 	padding: 3rem 0;
+  width: 100%;
 	text-align: center;
   display: flex;
-  width: 100%;
   justify-content: center;
-  flex-flow: column;
+  flex-flow: column wrap;
 }
 
 #contact h2 {
@@ -346,12 +346,9 @@ html, body {
 }
 
 .contact-info {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  margin: 2rem 0;
-  flex-flow: row nowrap;
-  justify-content: center;
+  margin: 0 auto;
+  padding: 1rem;
+  flex: 1;
 }
 
 .info-container {
@@ -360,6 +357,12 @@ html, body {
   font-weight: bold;
   font-size: 3rem;
   font-size: 2.5vw;
+  border-radius: 10px;
+  border: #000 double;
+  margin-bottom: 1rem;
+  box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2);
+  background-color: #574aaa;
+  color: white;
 }
 
 .info-icon {
@@ -384,15 +387,27 @@ html, body {
 
 /*slider*/
 
+.slider-root {
+  margin: auto;
+  width: 90%;
+  height: 550px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-flow: row nowrap;
+  box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  background-color: #7b3cc4;
+}
+
 .slider-container {
   margin: auto;
-  width: 70%;
-  height: 650px;
+  width: 100%;
+  height: 100%;
   position: relative;
   overflow: hidden;
   box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  background-color: #574aaa;
+  border-radius: 25px;
 }
 
 .project-container {
@@ -406,9 +421,27 @@ html, body {
   text-align: center;
   background: #fff;
   padding: 10px;
-  background-color: #f3138e;
+  background-color: #574aaa;
   color: white;
   opacity: 0;
+  transition: 1.5s ease;
+}
+
+.project-info{
+  font-size: 1.4vw;
+  font-family: Roboto, monospace;
+  letter-spacing: 3px;
+  font-weight: 480;
+  text-align: right;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: rgb(255, 255, 255);
+}
+
+.project-info-container {
+  width: 50%;
+  height: 100%;
+  background-color: #7b3cc4;
 }
 
 .active-slide {
@@ -416,10 +449,11 @@ html, body {
 }
 
 .button-slide {
+  background-color: transparent;
+  background-repeat: no-repeat;
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: #f1f1f1;
   border: 1px solid rgba(34, 34, 34, 0.287);
   position: absolute;
   display: flex;
@@ -430,7 +464,7 @@ html, body {
 }
 
 .button-slide:hover{
-  background: #574aaa;
+  background: #f3138e;
   transition: 1s ease;
 }
 
@@ -440,13 +474,13 @@ html, body {
 }
 
 .prev {
-  top: 30%;
+  top: 60%;
   left: 5px;
   transform: translateY(-60%);
 }
 
 .next {
-  top: 30%;
+  top: 60%;
   right: 5px;
   transform: translateY(-60%);
 }
@@ -486,7 +520,6 @@ html, body {
 }
 
 #projects h2 {
-  margin-top: 2rem;
   text-align: center;
   font-size: 3rem;
   font-size: 3.0vw;
@@ -504,13 +537,14 @@ html, body {
 .img-container {
   width: 100%;
   height: 30%;
+  margin-bottom: 1.7rem;
 }
 
 .project-image {
   margin: 0 auto;
   width: 295px;
   height: 209px;
-  border-radius: 10px 10px 0 0;
+  border-radius: 15px;
   border-bottom: 1px solid rgba(#777, 0.1);
   padding: 8px;
 }
@@ -545,18 +579,8 @@ html, body {
   margin-top: 10px;
 }
 
-.project-info{
-  font-size: 1.25vw;
-  font-family: Roboto, monospace;
-  letter-spacing: 2px;
-  font-weight: 480;
-  text-align: left;
-  margin-left: 15px;
-  margin-right: 15px;
-}
-
 @media screen and (max-width: 800px){
-  .slider-container {
+  .slider-root {
     margin: auto;
     height: 450px;
   }
@@ -574,20 +598,21 @@ html, body {
     margin-bottom: 0.3rem;
   }
 
-  .slider-container{
-    width: 75%;
-  }
-
   .project-info{
     font-size: 9px;
   }
 }
 
 @media screen and (max-width: 600px){
-  .slider-container {
+  .slider-root {
     margin: auto;
     height: 375px;
   }
+
+  .slider-container {
+    width: 65%;
+  }
+
   .button-slide {
     width: 20px;
     height: 20px;
@@ -602,10 +627,6 @@ html, body {
     margin-bottom: 0.2rem;
   }
 
-  .slider-container{
-    width: 90%;
-  }
-
   .text-container{
     margin-bottom: 0.3rem;
   }
@@ -617,10 +638,11 @@ html, body {
 
 
 @media screen and (max-width: 400px){
-  .slider-container {
+  .slider-root {
     margin: auto;
     height: 325px;
   }
+
   .button-slide {
     width: 20px;
     height: 20px;
@@ -637,10 +659,6 @@ html, body {
 
   .text-container{
     margin-bottom: 0.2rem;
-  }
-
-  .slider-container{
-    width: 90%;
   }
 
   .project-info{

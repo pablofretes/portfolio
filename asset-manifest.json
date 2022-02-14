@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.578c6f39.chunk.css",
-    "main.js": "/portfolio/static/js/main.80cab19e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.80cab19e.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.a8411fb7.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a8411fb7.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.37da8305.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.37da8305.js.map",
     "static/js/2.43bd1988.chunk.js": "/portfolio/static/js/2.43bd1988.chunk.js",
@@ -10,8 +10,8 @@
     "index.html": "/portfolio/index.html",
     "static/css/main.578c6f39.chunk.css.map": "/portfolio/static/css/main.578c6f39.chunk.css.map",
     "static/js/2.43bd1988.chunk.js.LICENSE.txt": "/portfolio/static/js/2.43bd1988.chunk.js.LICENSE.txt",
-    "static/media/PabloFretes-CV-English.85ce8d27.pdf": "/portfolio/static/media/PabloFretes-CV-English.85ce8d27.pdf",
-    "static/media/PabloFretes-CV.8761b88d.pdf": "/portfolio/static/media/PabloFretes-CV.8761b88d.pdf",
+    "static/media/Pablo-Fretes-CV-English.6a2fbda0.pdf": "/portfolio/static/media/Pablo-Fretes-CV-English.6a2fbda0.pdf",
+    "static/media/Pablo-Fretes-CV.58845bee.pdf": "/portfolio/static/media/Pablo-Fretes-CV.58845bee.pdf",
     "static/media/Screenshot_memotest.b7d317eb.png": "/portfolio/static/media/Screenshot_memotest.b7d317eb.png",
     "static/media/Screenshot_pokedex.310183a9.png": "/portfolio/static/media/Screenshot_pokedex.310183a9.png",
     "static/media/Screenshot_sudoku.c729b879.png": "/portfolio/static/media/Screenshot_sudoku.c729b879.png",
@@ -32,6 +32,6 @@
     "static/js/runtime-main.37da8305.js",
     "static/js/2.43bd1988.chunk.js",
     "static/css/main.578c6f39.chunk.css",
-    "static/js/main.80cab19e.chunk.js"
+    "static/js/main.a8411fb7.chunk.js"
   ]
 }

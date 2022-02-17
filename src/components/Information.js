@@ -4,7 +4,7 @@ const Information = ({ language }) => {
     return(
         <>
             {language === 'Spanish' ? (
-                <div className='container' data-cy='information-section'>
+                <div className='container-info' data-cy='information-section'>
                     <h2 className='text-titulo'>Mas cosas que saber sobre mi</h2>
                     <ul>
                         <li className='listed-items'>

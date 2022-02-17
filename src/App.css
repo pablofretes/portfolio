@@ -5,7 +5,6 @@ html, body {
   background-color: #FFFFFF;
   display: flex;
   justify-content: center;
-	background-image: radial-gradient(white, rgb(189, 229, 242), rgb(135, 178, 242))
 }
 
 .about-me{
@@ -19,8 +18,15 @@ html, body {
   margin-right: 20vw;
 }
 
-#home {
-  margin-top: 15vh;
+.home-project-container{
+	background-image: linear-gradient(to top right,white, rgb(128, 212, 240), rgb(77, 140, 235));
+	clip-path: circle(64.5%);
+	overflow: hidden;
+	margin-top: 6rem;
+}
+
+.container-info{
+	margin-bottom: 2rem;
 }
 
 .listed-items {
@@ -28,6 +34,7 @@ html, body {
   font-family: Cairo, sans-serif;
   color:#333;
   font-weight: lighter;
+	text-align: center;
   font-size: 1.2vw;
 }
 
@@ -533,7 +540,6 @@ html, body {
 
 #projects {
 	padding: 4rem;
-  margin-top: 5vh;
 }
 
 #projects h2 {

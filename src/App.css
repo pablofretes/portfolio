@@ -110,22 +110,13 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 50%;
+  border-radius: 3%;
   height: 10vw;
   width: 10vw;
   background-color: #FAFAFA;
   font-family: Cairo, sans-serif;
   transition: 0.8s ease-in-out;
-}
-
-@-webkit-keyframes fadeIn {
-  from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; }
-    to { opacity: 1; }
+	border:1px groove rgba(58, 65, 111, .5);
 }
 
 .skill-title {
@@ -133,14 +124,7 @@ html, body {
   margin-top: 1rem;
   font-size: 1vw;
   font-weight: 600;
-  display: none;
   font-family: Cairo, sans-serif;
-}
-
-.skill-container:hover .skill-title{
-  display: block;
-  -webkit-animation: fadeIn 0.5s;
-  animation: fadeIn 0.5s;
 }
 
 .skill-container:hover {

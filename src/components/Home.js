@@ -18,7 +18,7 @@ const Home = ({ language }) => {
         Hola, Soy Pablo ;)
         </h1>
         <h2 className='text-titulo'>
-        Soy Diseñador / Frontend Web Developer. 
+        Soy Web Developer. 
         </h2>
         <p className='about-me'>
         Me entere de lo que era programación muy por arriba cuando empezó la pandemia.
@@ -40,7 +40,7 @@ const Home = ({ language }) => {
         Hi, I'm Pablo ;)
         </h1>
         <h2 className='text-titulo'>
-        I'm a Designer / Frontend Web Developer. 
+        I'm a Web Developer. 
         </h2>
         <p className='about-me'>
         I first found out about programming when the pandemic was starting.

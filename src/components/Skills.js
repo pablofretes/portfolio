@@ -15,7 +15,7 @@ const Skills = ({ language }) => {
 		{ name: 'JavaScript', img: javascriptIcon },
 		{ name: 'React', img: reactIcon },
 		{ name: 'Git', img: gitIcon },
-        { name: 'TypeScript', img: typescriptIcon },
+    { name: 'TypeScript', img: typescriptIcon },
 		{ name: 'GraphQL', img: graphqlIcon },
 		{ name: 'Redux', img: reduxIcon },
 		{ name: 'NodeJS', img: nodeJSIcon },

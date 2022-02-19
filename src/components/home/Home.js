@@ -1,12 +1,13 @@
 import React from 'react';
-import Skills from '../components/Skills';
-import Projects from '../components/Projects';
-import Information from './Information';
-import Contact from './Contact';
+import Skills from '../skills/Skills';
+import Projects from '../projects/Projects';
+import Information from '../information/Information';
+import Contact from '../contact/Contact';
 import { FiDownload } from 'react-icons/fi';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import pdf from '../pdf/Pablo-Fretes-CV.pdf';
-import pdfEnglish from '../pdf/Pablo-Fretes-CV-English.pdf';
+import pdf from '../../pdf/Pablo-Fretes-CV.pdf';
+import pdfEnglish from '../../pdf/Pablo-Fretes-CV-English.pdf';
+import './home.css';
 
 const Home = ({ language }) => {
   return (
@@ -44,10 +45,10 @@ const Home = ({ language }) => {
         </h2>
         <p className='about-me'>
         I first found out about programming when the pandemic was starting.
-        At the time my mom was starting a small cosmetic business at home and I thought "Hey i could make a website, 
-        it shouldn't be too hard". I was wrong, it was sooooo hard, every time i checked something out i realized 
+        At the time my mom was starting a small cosmetic business at home and I thought "Hey I could make a website, 
+        it shouldn't be too hard". I was wrong, it was sooooo hard, every time I figured out something I realized 
         all over again how hard it was, and it got progressively harder. In the end my mom got bored of her little project,
-        but i couldn't forget about programming anymore. Now i would like to take what i learned to the professional world 
+        but I couldn't forget about programming anymore. Now I would like to take what I learned to the professional world 
         and hopefully keep learning. Contact Me!
         </p>
         <div className='home-links'>

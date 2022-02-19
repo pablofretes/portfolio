@@ -1,0 +1,33 @@
+.home-project-container{
+	background-image: linear-gradient(to top right,white, rgb(128, 212, 240), rgb(77, 140, 235));
+	clip-path: circle(64.5%);
+	overflow: hidden;
+	margin-top: 6rem;
+}
+
+.home-links {
+  width: 25%;
+  height: 35%;
+  margin: 0 auto;
+  padding: 1rem;
+  gap: 25px;
+}
+
+.text-h1 {
+  font-family: Cairo, sans-serif;
+  font-size: 50px;
+  font-size: 3.5vw;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.about-me{
+  font-size: 1.2vw;
+  text-align: center;
+  font-family: Roboto, monospace;
+  letter-spacing: 3px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}

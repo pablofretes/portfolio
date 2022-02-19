@@ -1,5 +1,6 @@
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import './navbar.css';
 
 const Navbar = ({ setLanguage, language }) => {
 	const handleSelect = (event) => {

@@ -1,0 +1,92 @@
+.nav {
+  padding: 3vw 0;
+  width: 100%;
+	background: #fff000;
+	position: fixed;
+	z-index: 99;
+	top: 0;
+	left: 0;
+	right: 0;
+  height: 7vh;
+}
+
+.navbar-words {
+  font-size: 2vw;
+  font-weight: 200;
+  font-family: Cairo, sans-serif;
+}
+
+.container-navbar {
+  text-align: center;
+}
+
+.nav-list {
+  width: 90%;
+  margin: 0;
+  height: 0;
+  padding: 0;
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row nowrap;
+  list-style: none;
+}
+
+.nav-list li {
+  position: relative;
+  display: list-item;
+  padding: 2px 5px;
+}
+
+.nav-item {
+  padding: 0.8rem 0;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.nav-logo {
+  max-width: 80px;
+}
+
+.nav-a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #333;
+  width: 100%;
+  display: block;
+  transition: color 0.5s;
+}
+
+.nav-a:hover {
+  color: #007bff;
+}
+
+.social-icon {
+  width: 1.8vw;
+  height: 1.8vw;
+  display: inline-block;
+  margin: 0;
+  transition: 1s ease;
+}
+
+.social-icon:hover {
+  fill: #007bff;
+  transition: 1s ease;
+}
+
+.select-language {
+  border-radius: 6px;
+  font-family: Cairo, monospace;
+  font-size: 25px;
+  font-size: 1.7vw;
+  background-color:#574aaa;
+  color: white;
+  transition: 1s ease;
+}
+
+.select-language:hover {
+  background-color: #007bff;
+  transition: 1s ease;
+}

@@ -1,12 +1,13 @@
-import cssIcon from '../img/css3.svg';
-import gitIcon from '../img/git.svg';
-import htmlIcon from '../img/html5.svg';
-import javascriptIcon from '../img/javascript.svg';
-import reactIcon from '../img/react.svg';
-import typescriptIcon from '../img/typescript.svg';
-import graphqlIcon from '../img/graphql.svg';
-import reduxIcon from '../img/redux.svg';
-import nodeJSIcon from '../img/nodejs.svg';
+import cssIcon from '../../img/css3.svg';
+import gitIcon from '../../img/git.svg';
+import htmlIcon from '../../img/html5.svg';
+import javascriptIcon from '../../img/javascript.svg';
+import reactIcon from '../../img/react.svg';
+import typescriptIcon from '../../img/typescript.svg';
+import graphqlIcon from '../../img/graphql.svg';
+import reduxIcon from '../../img/redux.svg';
+import nodeJSIcon from '../../img/nodejs.svg';
+import './skills.css'
 
 const Skills = ({ language }) => {
 	const skills = [

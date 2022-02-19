@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
-import Home from './components/Home';
-import NavBar from './components/Navbar';
+import Home from './components/home/Home';
+import NavBar from './components/navbar/Navbar';
 
 const App = () => {
   const [language, setLanguage] = useState('Spanish');

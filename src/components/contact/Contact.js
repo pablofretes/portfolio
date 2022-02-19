@@ -1,5 +1,6 @@
 import React from "react";
 import { FiMail, FiPhoneCall } from 'react-icons/fi';
+import './contact.css';
 
 const Contact = ({ language }) => {
     return(

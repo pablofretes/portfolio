@@ -1,4 +1,5 @@
 import React from "react";
+import './information.css';
 
 const Information = ({ language }) => {
     return(
@@ -32,7 +33,7 @@ const Information = ({ language }) => {
                     </ul>
                 </div>
             ) : (
-                <div className='container' data-cy='information-section'>
+                <div className='container-info' data-cy='information-section'>
                     <h2 className='text-titulo'>Some more info about me</h2>
                     <ul>
                         <li className='listed-items'>

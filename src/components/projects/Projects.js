@@ -1,9 +1,10 @@
 import React from 'react';
-import Slider from './Slider';
-import Screenshot_memotest from '../img/Screenshot_memotest.png';
-import Screenshot_pokedex from '../img/Screenshot_pokedex.png';
-import Screenshot_sudoku from '../img/Screenshot_sudoku.png';
-import Screenshot_sunset from '../img/Screenshot_sunset.png';
+import Slider from '../slider/Slider';
+import Screenshot_memotest from '../../img/Screenshot_memotest.png';
+import Screenshot_pokedex from '../../img/Screenshot_pokedex.png';
+import Screenshot_sudoku from '../../img/Screenshot_sudoku.png';
+import Screenshot_sunset from '../../img/Screenshot_sunset.png';
+import './projects.css';
 
 const Projects = ({ language }) => {
   const projects = [

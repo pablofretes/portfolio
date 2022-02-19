@@ -1,0 +1,18 @@
+.container-info{
+	margin-bottom: 2rem;
+}
+
+.listed-items {
+  list-style: none;
+  font-family: Cairo, sans-serif;
+  color:#333;
+  font-weight: lighter;
+	text-align: center;
+  font-size: 1.2vw;
+}
+
+.listed-items:hover {
+  color:#574aaa;
+  font-weight: bold;
+  font-size: 1.5vw;
+}

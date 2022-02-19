@@ -1,6 +1,6 @@
 import React from 'react';
-import leftArrow from '../img/left-arrow.svg';
-import rightArrow from '../img/right-arrow.svg';
+import leftArrow from '../../img/left-arrow.svg';
+import rightArrow from '../../img/right-arrow.svg';
 
 const ButtonSlider = ({ slide, direction }) => {
     return (

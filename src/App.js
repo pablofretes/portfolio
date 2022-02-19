@@ -4,7 +4,7 @@ import Home from './components/home/Home';
 import NavBar from './components/navbar/Navbar';
 
 const App = () => {
-  const [language, setLanguage] = useState('Spanish');
+  const [language, setLanguage] = useState('English');
   return (
     <div>
       <NavBar language={language} setLanguage={setLanguage}/>

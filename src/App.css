@@ -122,7 +122,7 @@ html, body {
 }
 
 .slider-root:hover {
-	box-shadow: 0px 5px 5px 5px black;
+	box-shadow: 0px 2px 2px 2px black;
 	transition: 1.3s ease;
 	transform: scale(1.03);
 }
@@ -155,7 +155,7 @@ html, body {
 
 .project-info{
   font-size: 1.4vw;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Cairo, serif;
   letter-spacing: 3px;
   font-weight: 480;
   text-align: right;
@@ -272,7 +272,7 @@ html, body {
 }
 
 .project-image:hover {
-	box-shadow: 0px 5px 5px 5px black;
+	box-shadow: 0px 2px 2px 2px black;
 	transition: 1s ease;
 	transform: scale(1.03);
 }
@@ -329,11 +329,6 @@ html, body {
   .project-info{
     font-size: 9px;
   }
-
-  .about-me{
-    line-height: 20px;
-    font-size: 1.6vw;
-  }
 }
 
 @media screen and (max-width: 600px){
@@ -350,7 +345,7 @@ html, body {
 
   .project-image {
     margin: 0 auto;
-    width: 125px;
+    width: 180px;
     height: auto;
     padding: 8px;
     margin-top: 0.2rem;
@@ -361,13 +356,8 @@ html, body {
     margin-bottom: 0.3rem;
   }
 
-  .project-info{
-    font-size: 1.6vw;
-  }
-
-  .about-me{
-    line-height: 10px;
-    font-size: 1.5vw;
+  .project-info-container{
+    display: none;
   }
 }
 
@@ -377,10 +367,6 @@ html, body {
     margin: auto;
     height: 325px;
   }
-  
-  .slider-container {
-    width: 85%;
-  }
 
   .button-slide {
     width: 20px;
@@ -389,7 +375,7 @@ html, body {
 
   .project-image {
     margin: 0 auto;
-    width: 80px;
+    width: 140px;
     height: auto;
     padding: 8px;
     margin-top: 0.1rem;
@@ -400,12 +386,7 @@ html, body {
     margin-bottom: 0.2rem;
   }
 
-  .project-info{
-    font-size: 1.3vw;
-  }
-
-  .about-me{
-    line-height: 10px;
-    font-size: 1.4vw;
+  .project-info-container{
+    display: none;
   }
 }

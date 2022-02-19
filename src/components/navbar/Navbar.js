@@ -72,10 +72,17 @@ const Navbar = ({ setLanguage, language }) => {
 								<FaLinkedin className='social-icon' data-cy='linkedin-button'/>
 							</a>
 						</li>
-						<select onChange={handleSelect} className='select-language'>
-							<option value='Spanish'>Español</option>
-							<option value='English'>Ingles</option>
-						</select>
+						{language === 'Spanish' ? (
+								<select onChange={handleSelect} className='select-language'>
+									<option value='English'>Ingles</option>
+									<option value='Spanish'>Español</option>
+								</select>
+							) : (
+								<select onChange={handleSelect} className='select-language'>
+									<option value='English'>Ingles</option>
+									<option value='Spanish'>Español</option>
+								</select>
+							)}
 					</ul>
 				): (
 					<ul className='nav-list'>
@@ -138,10 +145,17 @@ const Navbar = ({ setLanguage, language }) => {
 								<FaLinkedin className='social-icon' data-cy='linkedin-button'/>
 							</a>
 						</li>
-						<select onChange={handleSelect} className='select-language'>
-							<option value='English'>English</option>
-							<option value='Spanish'>Spanish</option>
-						</select>
+							{language === 'Spanish' ? (
+								<select onChange={handleSelect} className='select-language'>
+									<option value='Spanish'>Spanish</option>
+									<option value='English'>English</option>
+								</select>
+							) : (
+								<select onChange={handleSelect} className='select-language'>
+									<option value='English'>English</option>
+									<option value='Spanish'>Spanish</option>
+								</select>
+							)}
 					</ul>
 				)}
 			</div>

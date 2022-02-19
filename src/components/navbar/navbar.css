@@ -1,13 +1,13 @@
 .nav {
   padding: 3vw 0;
   width: 100%;
-	background: #fff000;
+	background: #fff;
 	position: fixed;
 	z-index: 99;
 	top: 0;
 	left: 0;
 	right: 0;
-  height: 7vh;
+	box-shadow: 1px 1px 1px 1px black;
 }
 
 .navbar-words {
@@ -89,4 +89,23 @@
 .select-language:hover {
   background-color: #007bff;
   transition: 1s ease;
+}
+
+@media screen and (max-width: 800px){
+	.nav{
+		height: 5vh;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.nav{
+		height: 4vh;
+	}
+}
+
+
+@media screen and (max-width: 400px){
+  .nav{
+		height: 3vh;
+	}
 }

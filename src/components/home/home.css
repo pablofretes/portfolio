@@ -2,7 +2,7 @@
 	background-image: linear-gradient(to top right,white, rgb(128, 212, 240), rgb(77, 140, 235));
 	clip-path: circle(64.5%);
 	overflow: hidden;
-	margin-top: 6rem;
+	margin-top: 4rem;
 }
 
 .home-links {
@@ -24,10 +24,46 @@
 .about-me{
   font-size: 1.2vw;
   text-align: center;
-  font-family: Roboto, monospace;
-  letter-spacing: 3px;
+  font-family: Cairo, serif;
   line-height: 30px;
   font-weight: 400;
   margin-left: 20vw;
   margin-right: 20vw;
+}
+
+@media screen and (max-width: 800px){
+	.home-project-container{
+		margin-top: 2rem;
+		clip-path: none;
+	}
+
+  .about-me{
+    line-height: 25px;
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 600px){
+	.home-project-container{
+		clip-path: none;
+		margin-top: 1rem;
+	}
+
+  .about-me{
+    line-height: 15px;
+    font-size: 2vw;
+  }
+}
+
+
+@media screen and (max-width: 400px){
+  .home-project-container{
+		clip-path: none;
+		margin-top: 1rem;
+	}
+
+	.about-me{
+    line-height: 15px;
+    font-size: 2vw;
+  }
 }

@@ -34,7 +34,7 @@ html, body {
   cursor: pointer;
   display: inline-flex;
   font-family: Cairo, monospace;
-  height: 50%;
+  height: 65px;
   width: 100%;
   justify-content: center;
   list-style: none;
@@ -75,7 +75,7 @@ html, body {
   cursor: pointer;
   display: inline-flex;
   font-family: Cairo, monospace;
-  height: 50%;
+  height: 65px;
   width: 100%;
   justify-content: center;
   list-style: none;
@@ -115,16 +115,9 @@ html, body {
   overflow: hidden;
   display: flex;
   flex-flow: row nowrap;
-  box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 2px 2px 2px 2px black;
   border-radius: 25px;
   background-color: #7b3cc4;
-	transition: 1.3s ease;
-}
-
-.slider-root:hover {
-	box-shadow: 0px 2px 2px 2px black;
-	transition: 1.3s ease;
-	transform: scale(1.03);
 }
 
 .project-container {
@@ -149,7 +142,7 @@ html, body {
   height: 100%;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 2px 2px 2px 2px black;
   border-radius: 25px;
 }
 
@@ -240,12 +233,6 @@ html, body {
   transition: 1s ease;
 }
 
-#projects h2 {
-  text-align: center;
-  font-size: 3rem;
-  font-size: 3.0vw;
-  font-weight: 600;
-}
 
 .projects-grid {
   display: grid;
@@ -269,12 +256,6 @@ html, body {
   border-bottom: 1px solid rgba(#777, 0.1);
   padding: 8px;
 	transition: 1s ease;
-}
-
-.project-image:hover {
-	box-shadow: 0px 2px 2px 2px black;
-	transition: 1s ease;
-	transform: scale(1.03);
 }
 
 .text-container {
@@ -329,6 +310,14 @@ html, body {
   .project-info{
     font-size: 9px;
   }
+
+	.code-button {
+		height: 40px;
+	}
+
+	.demo-button {
+		height: 40px;
+	}
 }
 
 @media screen and (max-width: 600px){
@@ -359,6 +348,14 @@ html, body {
   .project-info-container{
     display: none;
   }
+
+	.code-button {
+		height: 30px;
+	}
+
+	.demo-button {
+		height: 30px;
+	}
 }
 
 
@@ -389,4 +386,12 @@ html, body {
   .project-info-container{
     display: none;
   }
+
+	.code-button {
+		height: 20px;
+	}
+
+	.demo-button {
+		height: 20px;
+	}
 }

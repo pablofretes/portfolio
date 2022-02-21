@@ -24,7 +24,7 @@
 .skill-container {
   padding: 5px;
   margin: 5px 5px 5px 5px;
-  box-shadow: -1px 0 10px 0px rgba(0, 0, 0, 0.5), 5px 20px 40px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: -1px 2px 2px 0px rgba(0, 0, 0, 0.5), 5px 20px 40px 0 rgba(0, 0, 0, 0.5), 2px 2px 2px 2px black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -50,8 +50,6 @@
   background-color: #574aaa;
   transition: 0.8s ease-in-out;
   color: white;
-	height: 11vw;
-	width: 11vw;
 }
 
 .skill-icon{

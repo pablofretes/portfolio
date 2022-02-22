@@ -90,7 +90,6 @@
   50% { transform:translateY(-25px) rotate(4deg); }
 }
 
-
 .balloon:before {
   content:"▲";
   font-size:20px;
@@ -106,15 +105,39 @@
 .balloon:nth-child(2){ background:hsl(245,40%,65%); animation-duration:3.5s; }
 .balloon:nth-child(2):before { color:hsl(245,40%,65%);  }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1000px){
 	.home-project-container{
 		margin-top: 2rem;
-		clip-path: none;
 	}
 
   .about-me{
     line-height: 25px;
     font-size: 2vw;
+		text-align: left;
+  }
+
+	.home-container-1{
+		margin: 0 auto;
+	}
+
+	.text-h1-home {
+		text-align: left;
+	}
+
+	.text-titulo-home {
+		text-align: left;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.home-project-container{
+		margin-top: 2rem;
+	}
+
+  .about-me{
+    line-height: 25px;
+    font-size: 2vw;
+		text-align: center;
   }
 
 	.balloon{
@@ -136,12 +159,6 @@
 	}
 
 	.text-titulo-home {
-		text-align: center;
-		margin-right: 0px;
-		margin-left: 0px;
-	}
-
-	.about-me {
 		text-align: center;
 		margin-right: 0px;
 		margin-left: 0px;
@@ -183,11 +200,6 @@
 		margin-left: 0px;
 	}
 
-	.about-me {
-		text-align: center;
-		margin-right: 0px;
-		margin-left: 0px;
-	}
 }
 
 
@@ -225,9 +237,4 @@
 		margin-left: 0px;
 	}
 
-	.about-me {
-		text-align: center;
-		margin-right: 0px;
-		margin-left: 0px;
-	}
 }

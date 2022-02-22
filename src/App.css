@@ -2,7 +2,7 @@
 
 html, body {
   margin: 0;
-  background-color: #FFFFFF;
+  background-color: #CFFCFF;
   display: flex;
   justify-content: center;
 }
@@ -115,9 +115,9 @@ html, body {
   overflow: hidden;
   display: flex;
   flex-flow: row nowrap;
-	box-shadow: 2px 2px 2px 2px black;
+	box-shadow: 4px 4px 15px 4px rgba(0,0,0,0.84);
   border-radius: 25px;
-  background-color: #7b3cc4;
+  background-color: #4C1036;
 }
 
 .project-container {
@@ -131,7 +131,7 @@ html, body {
   text-align: center;
   background: #fff;
   padding: 10px;
-  background-color: #574aaa;
+  background-color: #72195A;
   color: white;
   opacity: 0;
 }
@@ -160,7 +160,7 @@ html, body {
 .project-info-container {
   width: 50%;
   height: 100%;
-  background-color: #7b3cc4;
+  background-color: #4C1036;
 }
 
 .active-slide {

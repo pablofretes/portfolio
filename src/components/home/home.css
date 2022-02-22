@@ -1,5 +1,5 @@
 .home-project-container{
-	background-image: linear-gradient(to top right,white, rgb(128, 212, 240), rgb(77, 140, 235));
+	background-image: linear-gradient(to top right,white, #C6D8FF, #71A9F7);
 	overflow: hidden;
 	margin-top: 4rem;
 }

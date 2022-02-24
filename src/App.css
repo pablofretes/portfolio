@@ -115,7 +115,7 @@ html, body {
   overflow: hidden;
   display: flex;
   flex-flow: row nowrap;
-	box-shadow: 4px 4px 15px 4px rgba(0,0,0,0.84);
+	box-shadow: 13px 13px 5px 4px rgba(0,0,0,0.89);
   border-radius: 25px;
   background-color: #4C1036;
 }

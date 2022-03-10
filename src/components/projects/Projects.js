@@ -2,7 +2,7 @@ import React from 'react';
 import Slider from '../slider/Slider';
 import Screenshot_memotest from '../../img/Screenshot_memotest.png';
 import Screenshot_pokedex from '../../img/Screenshot_pokedex.png';
-import Screenshot_sudoku from '../../img/Screenshot_sudoku.png';
+import Screenshot_balance from '../../img/Balance.png';
 import Screenshot_sunset from '../../img/Screenshot_sunset.png';
 import './projects.css';
 
@@ -34,7 +34,7 @@ const Projects = ({ language }) => {
 			También use React, Bootstrap y un poco de CSS en el frontend.`,
       name: 'App de Balance',
       description: 'App para guardar los movimientos de tu dinero.',
-      img: Screenshot_sudoku,
+      img: Screenshot_balance,
       demo: 'https://desolate-castle-51796.herokuapp.com/',
       github: 'https://github.com/pablofretes/balance-mysql-app'
     },
@@ -78,7 +78,7 @@ const Projects = ({ language }) => {
 			And the frontend uses React, Bootstrap and some CSS.`,
       name: 'App de Balance',
       description: 'App para guardar los movimientos de tu dinero.',
-      img: Screenshot_sudoku,
+      img: Screenshot_balance,
       demo: 'https://desolate-castle-51796.herokuapp.com/',
       github: 'https://github.com/pablofretes/balance-mysql-app'
     },

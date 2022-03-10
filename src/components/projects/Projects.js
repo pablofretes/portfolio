@@ -76,7 +76,7 @@ const Projects = ({ language }) => {
       id: 3,
       info: `I built this project for an alkemy.org challenge. I used ExpressJS, NodeJS, MySQL and Sequelize to build the backend.
 			And the frontend uses React, Bootstrap and some CSS.`,
-      name: 'App de Balance',
+      name: 'Balance App',
       description: 'App para guardar los movimientos de tu dinero.',
       img: Screenshot_balance,
       demo: 'https://desolate-castle-51796.herokuapp.com/',

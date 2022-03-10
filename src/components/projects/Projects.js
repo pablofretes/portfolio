@@ -30,6 +30,16 @@ const Projects = ({ language }) => {
     },
 		{
       id: 3,
+      info: `Este proyecto lo hice para un challenge de alkemy.org. Usé ExpressJS, NodeJS, MySQL y Sequelize para hacer el backend.
+			También use React, Bootstrap y un poco de CSS en el frontend.`,
+      name: 'App de Balance',
+      description: 'App para guardar los movimientos de tu dinero.',
+      img: Screenshot_sudoku,
+      demo: 'https://desolate-castle-51796.herokuapp.com/',
+      github: 'https://github.com/pablofretes/balance-mysql-app'
+    },
+    {
+      id: 4,
       info: `Saqué la idea de este proyecto de Coder Foundry. Es bastante simple pero demuestra mi manejo de listas. Para este
 			proyecto use React, TypeScript y CSS.`,
       name: 'Atardecer',
@@ -38,17 +48,6 @@ const Projects = ({ language }) => {
       demo: 'https://stupefied-khorana-28e1f2.netlify.app/',
       github: 'https://github.com/pablofretes/sunset-hills',
     },
-		{
-      id: 4,
-      info: `Tuve la idea de hacer este proyecto cuando estaba haciendo un ejercicio de validación de sudoku 
-      en CodeWars. Pensé "esto básicamente es media app de un solucionador de sudoku" mientras estaba por terminarlo y lo hice.
-			También use React, TypeScript y CSS.`,
-      name: 'Sudoku Solver',
-      description: 'Un solucionador de sudokus que llama a una API para cada nuevo sudoku',
-      img: Screenshot_sudoku,
-      demo: 'https://heuristic-leakey-318be8.netlify.app/',
-      github: 'https://github.com/pablofretes/sudoku-solver-ts'
-    }
   ];
 
   const projectsEnglish = [
@@ -75,6 +74,16 @@ const Projects = ({ language }) => {
     },
 		{
       id: 3,
+      info: `I built this project for an alkemy.org challenge. I used ExpressJS, NodeJS, MySQL and Sequelize to build the backend.
+			And the frontend uses React, Bootstrap and some CSS.`,
+      name: 'App de Balance',
+      description: 'App para guardar los movimientos de tu dinero.',
+      img: Screenshot_sudoku,
+      demo: 'https://desolate-castle-51796.herokuapp.com/',
+      github: 'https://github.com/pablofretes/balance-mysql-app'
+    },
+    {
+      id: 4,
       info: `I took inspiration for this project from a Coder Foundry Challenge. It seems pretty simple, but it shows my list management. 
 			I used React, TypeScript and CSS.`,
       name: 'Sunset Hills',
@@ -83,17 +92,6 @@ const Projects = ({ language }) => {
       demo: 'https://stupefied-khorana-28e1f2.netlify.app/',
       github: 'https://github.com/pablofretes/sunset-hills',
     },
-		{
-      id: 4,
-      info: `The idea for this project came about when I was doing an exercise on sudoku validation on CodeWars. 
-      When I was about to finish it I thought "Hey, this is basically half a sudoku solver app", so I made it. Once again
-			I used React, TypeScript and CSS.`,
-      name: 'Sudoku Solver',
-      description: 'Just a sudoku solver that pulls unsolved sudokus from an API',
-      img: Screenshot_sudoku,
-      demo: 'https://heuristic-leakey-318be8.netlify.app/',
-      github: 'https://github.com/pablofretes/sudoku-solver-ts'
-    }
   ];
     return (
         <section id='projects' data-cy='projects-section'>
